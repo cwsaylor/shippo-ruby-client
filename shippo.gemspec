@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'mime-types', '>= 1.16', '< 4'
   spec.add_dependency 'json', '~> 1.8'
   spec.add_dependency 'hashie', '~> 3.4'
-  spec.add_dependency 'activesupport', '~> 4'
+  spec.add_dependency 'activesupport', '< 5.1', '>= 3.0.0'
   spec.add_dependency 'require_dir', '~> 0.1'
   spec.add_dependency 'awesome_print'
 
